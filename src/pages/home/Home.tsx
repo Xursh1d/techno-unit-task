@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect } from 'react';
 import InfiniteScroll from './components/InfiniteScroll';
 import { store } from '../../store/home/HomePageStore';
-import AdminLayout from '../../AdminLayuot';
+import AdminLayout from '../../AdminLayout';
 
 const Home: React.FC = () => {
     const { getMoreProduct } = store
